@@ -8,7 +8,7 @@ export default function HomeScreen() {
   return (
     <ThemedView style={styles.container}>
       <ThemedText type="subtitle">오늘의 WOD</ThemedText>
-      <ThemedText type="small" themeColor="textSecondary">
+      <ThemedText type="smallBold" themeColor="textSecondary">
         아직 기록이 없어요
       </ThemedText>
     </ThemedView>
